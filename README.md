@@ -14,13 +14,12 @@ I always do remember this inspiring quote.
 > **“Don't just aspire to make a living. Aspire to make a difference.” 
                                                —Denzel Washington**
 
-http://github.com - automatic!
-[GitHub](http://github.com)
+
 
 Hire me as a Developer
 <a class="github"
 href="https://www.fiverr.com/singhsaim">
-Follow @Saims0n</a>
+Fiverr @Singhsaim</a>
 
 Follow me on twitter
 <a class="twitter-follow-button"
