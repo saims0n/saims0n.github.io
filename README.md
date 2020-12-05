@@ -1,4 +1,4 @@
-# Hi This is SUbhankar Thakur (Saimson)
+# Hi This is Subhankar Thakur as (Saimson)
 **A Software Engineer,Penetration Tester,Ctf Player**
 
 I have Nothing much to tell you about myself ....
