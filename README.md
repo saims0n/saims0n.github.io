@@ -1,7 +1,7 @@
 # Hi This is Subhankar Thakur as (Saimson)
 **A Software Engineer,Penetration Tester,Ctf Player**
-
-I have Nothing much to tell you about myself ....
+As a Software Engineer,I do provide software services and solutions that shape the future of Computer Science and IT Industry,
+I have Nothing much to tell you about myself,
 Just wanna say I'm guy who work hard to be better,worked for many 
 Software company as Software developer,then started My own company
 and left the job,got success but somehow company is no more.
@@ -15,13 +15,16 @@ I always do remember this inspiring quote.
                                                —Denzel Washington**
 
 
+Hire me as a Developer
+href="https://www.fiverr.com/singhsaim">
+Follow @Saims0n</a>
 
-
-
+Follow me on twitter
 <a class="twitter-follow-button"
   href="https://twitter.com/saims0n">
 Follow @Saims0n</a>
-
+ 
+ 
 
 
 Created this repo will be update soon with some new tools,scripts,exploits,and lot more things.
