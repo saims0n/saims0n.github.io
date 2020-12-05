@@ -25,4 +25,4 @@ Follow @Saims0n</a>
 
 
 Created this repo will be update soon with some new tools,scripts,exploits,and lot more things.
-So thank you for being connect with this repo.
+  So thank you for being connect with this repo.
