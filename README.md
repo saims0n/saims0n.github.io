@@ -20,7 +20,7 @@ I always do remember this inspiring quote.
 
 <a class="twitter-follow-button"
   href="https://twitter.com/saims0n">
-Follow @TwitterDev</a>
+Follow @Saims0n</a>
 
 
 
