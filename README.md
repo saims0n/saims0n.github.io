@@ -16,6 +16,7 @@ I always do remember this inspiring quote.
 
 
 Hire me as a Developer
+<a class="github"
 href="https://www.fiverr.com/singhsaim">
 Follow @Saims0n</a>
 
