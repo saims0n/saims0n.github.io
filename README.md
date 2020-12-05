@@ -1,21 +1,28 @@
-# Hi This is Saimson 
+# Hi This is SUbhankar Thakur (Saimson)
 **A Software Engineer,Penetration Tester,Ctf Player**
 
 I have Nothing much to tell you about myself ....
-Just wanna say i'm guy who work hard to be better,worked for many 
+Just wanna say I'm guy who work hard to be better,worked for many 
 Software company as Software developer,then started My own company
 and left the job,got success but somehow company is no more.
-That's why i started my journy as Penetration tester,bug hunter.
-i always do learn new things to be update with technology,
-and love to share whatever i have.
-**aspire to make diffrence**
+Then decided my journy as Security Engineer,Penetration tester,bug hunter.
+Trying to learn new things to be updated with technology,
+and love to share whatever I have.
+
+
+I always do remember this inspiring quote.
+> **“Don't just aspire to make a living. Aspire to make a difference.” 
+                                               —Denzel Washington**
 
 
 
 
 
+<a class="twitter-follow-button"
+  href="https://twitter.com/saims0n">
+Follow @TwitterDev</a>
 
 
 
-Created this repo is just because to share my learnings with you cool buddies....
+Created this repo will be update soon with some new tools,scripts,exploits,and lot more things.
 So thank you for being connect with this repo.
