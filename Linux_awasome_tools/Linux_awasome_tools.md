@@ -1,11 +1,3 @@
----
-title: Linux_awasome_tools
-layout: template
-filename: Linux_awasome_tools.md
-
---- 
-
-
 # Awesome Hacking Tools
 
 **A collection of awesome lists for hackers, pentesters & security researchers.**
