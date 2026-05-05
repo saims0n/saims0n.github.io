@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Projects | Saimson</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<canvas id="bg-canvas"></canvas>
+<div id="cursor-dot"></div><div id="cursor-outline"></div>
+<nav id="navbar">
+  <a href="index.html" class="nav-brand"><span class="brand-bracket">[</span>SAIMSON<span class="brand-bracket">]</span></a>
+  <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html"><span class="cmd">./</span>home</a></li>
+    <li><a href="about.html"><span class="cmd">./</span>about</a></li>
+    <li><a href="arsenal.html"><span class="cmd">./</span>arsenal</a></li>
+    <li><a href="projects.html" class="active"><span class="cmd">./</span>projects</a></li>
+    <li><a href="research.html"><span class="cmd">./</span>research</a></li>
+    <li><a href="contact.html" class="nav-cta"><span class="cmd">$</span>&nbsp;contact --me</a></li>
+  </ul>
+  <div class="nav-status"><span class="pulse"></span><span class="status-text">AVAILABLE</span></div>
+</nav>
+
+<main class="page-main">
+<div class="page-hero">
+  <div class="page-hero-label">./projects</div>
+  <h1 class="page-hero-title">Operations <span class="accent">Log</span></h1>
+  <p class="page-hero-sub">Software shipped. Clients served. Systems secured.</p>
+</div>
+
+<!-- FILTER -->
+<section class="section-block">
+  <div class="filter-bar">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="web">Web</button>
+    <button class="filter-btn" data-filter="mobile">Mobile</button>
+    <button class="filter-btn" data-filter="security">Security</button>
+    <button class="filter-btn" data-filter="oss">Open Source</button>
+  </div>
+
+  <div class="projects-grid" id="projectsGrid">
+
+    <!-- PROJECT CARDS -->
+    <div class="proj-card reveal-card" data-cat="web">
+      <div class="proj-header">
+        <span class="proj-id">PROJ-001</span>
+        <div class="proj-links">
+          <a href="https://greenvatikalandscape.com/" target="_blank" title="Live Site">↗</a>
+        </div>
+      </div>
+      <h3 class="proj-title">Ecommerce Plant Booking Platform</h3>
+      <p class="proj-desc">Full-stack e-commerce site for an online plant nursery with home delivery. Custom WordPress theme, PHP backend, MySQL, integrated payment gateway and responsive storefront.</p>
+      <div class="proj-stack"><span>WordPress</span><span>PHP</span><span>MySQL</span><span>Bootstrap</span></div>
+      <div class="proj-footer"><span class="proj-type web">Web App</span><a href="https://greenvatikalandscape.com/" target="_blank" class="proj-cta">Visit Site →</a></div>
+    </div>
+
+    <div class="proj-card reveal-card" data-cat="mobile">
+      <div class="proj-header">
+        <span class="proj-id">PROJ-002</span>
+        <div class="proj-links">
+          <a href="https://play.google.com/store/apps/details?id=com.aniket.photography.app" target="_blank" title="Play Store">↗</a>
+        </div>
+      </div>
+      <h3 class="proj-title">Photography App — Local Businesses</h3>
+      <p class="proj-desc">Cross-platform Flutter app helping photography businesses in Prayagraj and Allahabad reach more customers. Firebase backend, native Android &amp; iOS experience.</p>
+      <div class="proj-stack"><span>Flutter</span><span>Dart</span><span>Firebase</span><span>Android</span><span>iOS</span></div>
+      <div class="proj-footer"><span class="proj-type mobile">Mobile</span><a href="https://play.google.com/store/apps/details?id=com.aniket.photography.app" target="_blank" class="proj-cta">Play Store →</a></div>
+    </div>
+
+    <div class="proj-card reveal-card" data-cat="web">
+      <div class="proj-header">
+        <span class="proj-id">PROJ-003</span>
+        <div class="proj-links">
+          <a href="https://www.danzarle.com/" target="_blank" title="Live Site">↗</a>
+        </div>
+      </div>
+      <h3 class="proj-title">Online Dance Studio Booking System</h3>
+      <p class="proj-desc">Custom WordPress booking platform for a dance studio. Users browse class schedules, register accounts, and purchase sessions online. JS-driven booking logic with PHP/MySQL backend.</p>
+      <div class="proj-stack"><span>WordPress</span><span>JavaScript</span><span>PHP</span><span>MySQL</span></div>
+      <div class="proj-footer"><span class="proj-type web">Web App</span><a href="https://www.danzarle.com/" target="_blank" class="proj-cta">Visit Site →</a></div>
+    </div>
+
+    <div class="proj-card reveal-card" data-cat="mobile security">
+      <div class="proj-header">
+        <span class="proj-id">PROJ-004</span>
+      </div>
+      <h3 class="proj-title">On-Demand Car Wash App</h3>
+      <p class="proj-desc">Co-founded in 2019. One-tap on-demand car washing service dispatching professionals to your location. Led full product architecture, mobile app development and technical ops from launch through scale.</p>
+      <div class="proj-stack"><span>Mobile</span><span>On-Demand</span><span>Co-Founder</span><span>2019</span></div>
+      <div class="proj-footer"><span class="proj-type mobile">Startup</span><a href="contact.html" class="proj-cta">Inquire →</a></div>
+    </div>
+
+    <div class="proj-card reveal-card" data-cat="oss security">
+      <div class="proj-header">
+        <span class="proj-id">PROJ-005</span>
+        <div class="proj-links">
+          <a href="https://github.com/saims0n/OSCP-BUFFER-OVERFLOW-PREP" target="_blank">↗</a>
+        </div>
+      </div>
+      <h3 class="proj-title">OSCP Buffer Overflow Prep Notes</h3>
+      <p class="proj-desc">Public GitHub repository with detailed practice notes for buffer overflow exploitation on OSCP-track vulnerable machines. Covers mona.py usage, badchar detection, shellcode generation and payload delivery.</p>
+      <div class="proj-stack"><span>Python</span><span>Immunity Debugger</span><span>mona.py</span><span>OSCP</span></div>
+      <div class="proj-footer"><span class="proj-type oss">Open Source</span><a href="https://github.com/saims0n/OSCP-BUFFER-OVERFLOW-PREP" target="_blank" class="proj-cta">GitHub →</a></div>
+    </div>
+
+    <div class="proj-card reveal-card" data-cat="oss security">
+      <div class="proj-header">
+        <span class="proj-id">PROJ-006</span>
+        <div class="proj-links">
+          <a href="https://github.com/saims0n/Hack-the-box-VMS-Walkthrough" target="_blank">↗</a>
+        </div>
+      </div>
+      <h3 class="proj-title">Hack The Box VM Walkthroughs</h3>
+      <p class="proj-desc">Methodology-first walkthroughs for HTB virtual machines. Focused on short, digestible write-ups covering recon, enumeration, exploitation and post-exploitation with explanations of techniques used.</p>
+      <div class="proj-stack"><span>HTB</span><span>Pentesting</span><span>Write-ups</span><span>Bash</span></div>
+      <div class="proj-footer"><span class="proj-type oss">Open Source</span><a href="https://github.com/saims0n/Hack-the-box-VMS-Walkthrough" target="_blank" class="proj-cta">GitHub →</a></div>
+    </div>
+
+    <div class="proj-card reveal-card" data-cat="oss security">
+      <div class="proj-header">
+        <span class="proj-id">PROJ-007</span>
+        <div class="proj-links">
+          <a href="https://github.com/saims0n" target="_blank">↗</a>
+        </div>
+      </div>
+      <h3 class="proj-title">0xdf Blog Reader Script</h3>
+      <p class="proj-desc">Python automation script that reads and formats write-ups from the 0xdf blog — a go-to OSCP and HTB resource. Built to streamline research and offline reading during OSCP preparation.</p>
+      <div class="proj-stack"><span>Python</span><span>Scripting</span><span>OSCP</span><span>Automation</span></div>
+      <div class="proj-footer"><span class="proj-type oss">Open Source</span><a href="https://github.com/saims0n" target="_blank" class="proj-cta">GitHub →</a></div>
+    </div>
+
+    <div class="proj-card reveal-card" data-cat="oss security">
+      <div class="proj-header">
+        <span class="proj-id">PROJ-008</span>
+        <div class="proj-links">
+          <a href="https://github.com/saims0n" target="_blank">↗</a>
+        </div>
+      </div>
+      <h3 class="proj-title">OSCP Preparation Notes</h3>
+      <p class="proj-desc">Living document repository covering OSCP exam methodology, privilege escalation techniques, enumeration checklists, and exploit development notes. Continuously updated with new findings.</p>
+      <div class="proj-stack"><span>Notes</span><span>OSCP</span><span>PrivEsc</span><span>Methodology</span></div>
+      <div class="proj-footer"><span class="proj-type oss">Open Source</span><a href="https://github.com/saims0n" target="_blank" class="proj-cta">GitHub →</a></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CLIENTS -->
+<section class="section-block dark-section">
+  <div class="section-label">trusted by</div>
+  <h2 class="section-title">Clients</h2>
+  <div class="client-ticker-wrap">
+    <div class="client-ticker">
+      <span>RonJones</span><span class="sep">✦</span>
+      <span>GoldenGrid</span><span class="sep">✦</span>
+      <span>BullsEye</span><span class="sep">✦</span>
+      <span>Mighty Furnitures</span><span class="sep">✦</span>
+      <span>Fastlane</span><span class="sep">✦</span>
+      <span>Chippy</span><span class="sep">✦</span>
+      <span>RonJones</span><span class="sep">✦</span>
+      <span>GoldenGrid</span><span class="sep">✦</span>
+      <span>BullsEye</span><span class="sep">✦</span>
+      <span>Mighty Furnitures</span><span class="sep">✦</span>
+      <span>Fastlane</span><span class="sep">✦</span>
+      <span>Chippy</span><span class="sep">✦</span>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">[SAIMSON] © 2025</div>
+    <div class="footer-links">
+      <a href="https://github.com/saims0n" target="_blank">GitHub</a>
+      <a href="https://twitter.com/saims0n" target="_blank">Twitter/X</a>
+      <a href="https://www.linkedin.com/in/saims0n" target="_blank">LinkedIn</a>
+      <a href="https://www.fiverr.com/singhsaim" target="_blank">Fiverr</a>
+    </div>
+    <div class="footer-note">All engagements authorized. Ethical. Scoped.</div>
+  </div>
+</footer>
+<script src="assets/main.js"></script>
+<script>
+// Filter logic
+const btns = document.querySelectorAll('.filter-btn');
+const cards = document.querySelectorAll('.proj-card');
+btns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    btns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const f = btn.dataset.filter;
+    cards.forEach(c => {
+      const cat = c.dataset.cat || '';
+      c.style.display = (f === 'all' || cat.includes(f)) ? '' : 'none';
+    });
+  });
+});
+</script>
+</body>
+</html>

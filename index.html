@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Saimson | Cyber Security Consultant & Penetration Tester</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<canvas id="bg-canvas"></canvas>
+<div id="cursor-dot"></div>
+<div id="cursor-outline"></div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="index.html" class="nav-brand">
+    <span class="brand-bracket">[</span>SAIMSON<span class="brand-bracket">]</span>
+  </a>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html" class="active"><span class="cmd">./</span>home</a></li>
+    <li><a href="about.html"><span class="cmd">./</span>about</a></li>
+    <li><a href="arsenal.html"><span class="cmd">./</span>arsenal</a></li>
+    <li><a href="projects.html"><span class="cmd">./</span>projects</a></li>
+    <li><a href="research.html"><span class="cmd">./</span>research</a></li>
+    <li><a href="contact.html" class="nav-cta"><span class="cmd">$</span>&nbsp;contact --me</a></li>
+  </ul>
+  <div class="nav-status">
+    <span class="pulse"></span>
+    <span class="status-text">AVAILABLE</span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<main>
+<section id="hero">
+  <div class="hero-eyebrow" id="eyebrow">
+    <span class="type-line" data-text="// Cyber Security Consultant @ EY | Penetration Tester | Builder"></span>
+  </div>
+
+  <div class="hero-name-wrap">
+    <h1 class="hero-name">
+      <span class="name-line" style="--d:0.1s">SHAIM</span><span class="name-accent" style="--d:0.2s">SON</span>
+    </h1>
+    <div class="hero-tagline" style="--d:0.4s">
+      <span>Analyzing</span> <span class="accent">Digital</span> <span>Realities.</span>
+    </div>
+  </div>
+
+  <p class="hero-desc reveal-up" style="--d:0.6s">
+    IT Engineer · Penetration Tester · Software Developer<br>
+    I break systems to make them stronger — ethically, methodically, relentlessly.
+  </p>
+
+  <div class="hero-actions reveal-up" style="--d:0.8s">
+    <a href="projects.html" class="btn-primary">./view --ops</a>
+    <a href="contact.html" class="btn-ghost">$ contact --me</a>
+    <a href="https://github.com/saims0n" target="_blank" class="btn-ghost">~/github</a>
+  </div>
+
+  <div class="hero-metrics reveal-up" style="--d:1s">
+    <div class="metric"><span class="metric-val" data-target="5">0</span><span class="metric-plus">+</span><span class="metric-label">YRS EXP</span></div>
+    <div class="metric-div">|</div>
+    <div class="metric"><span class="metric-val" data-target="20">0</span><span class="metric-plus">+</span><span class="metric-label">PROJECTS</span></div>
+    <div class="metric-div">|</div>
+    <div class="metric"><span class="metric-val" data-target="4">0</span><span class="metric-plus"></span><span class="metric-label">REPOS</span></div>
+    <div class="metric-div">|</div>
+    <div class="metric"><span class="metric-val" data-target="6">0</span><span class="metric-plus">+</span><span class="metric-label">CLIENTS</span></div>
+  </div>
+</section>
+
+<!-- CAPABILITIES -->
+<section id="capabilities">
+  <div class="section-label">capabilities</div>
+  <h2 class="section-title">What I Do</h2>
+  <div class="caps-grid">
+    <div class="cap-card reveal-card">
+      <div class="cap-icon">⚔</div>
+      <h3>Offensive Security</h3>
+      <p>Black, grey & white box testing across web apps, APIs, networks and OT environments. Authorized. Scoped. Thorough.</p>
+      <div class="cap-tags"><span>OWASP</span><span>Burp Suite</span><span>Metasploit</span></div>
+    </div>
+    <div class="cap-card reveal-card">
+      <div class="cap-icon">🔍</div>
+      <h3>Recon & OSINT</h3>
+      <p>Deep reconnaissance using passive and active techniques. Threat intelligence gathering and attack surface mapping.</p>
+      <div class="cap-tags"><span>Shodan</span><span>Maltego</span><span>OSINT Framework</span></div>
+    </div>
+    <div class="cap-card reveal-card">
+      <div class="cap-icon">📱</div>
+      <h3>Mobile Security</h3>
+      <p>Android APK reverse engineering, iOS security analysis, insecure storage detection, SSL pinning bypass and dynamic analysis.</p>
+      <div class="cap-tags"><span>Frida</span><span>MobSF</span><span>ADB</span></div>
+    </div>
+    <div class="cap-card reveal-card">
+      <div class="cap-icon">🛠</div>
+      <h3>Secure Development</h3>
+      <p>Building apps with security baked in — from auth flows to encrypted storage. Flutter, PHP, Python, JS stack expertise.</p>
+      <div class="cap-tags"><span>SSDLC</span><span>Code Review</span><span>API Security</span></div>
+    </div>
+    <div class="cap-card reveal-card">
+      <div class="cap-icon">🌐</div>
+      <h3>Network & OT</h3>
+      <p>Infrastructure pentesting including OT/ICS environments. Protocol analysis, firewall auditing, lateral movement simulation.</p>
+      <div class="cap-tags"><span>Nmap</span><span>Wireshark</span><span>OT/ICS</span></div>
+    </div>
+    <div class="cap-card reveal-card">
+      <div class="cap-icon">⚡</div>
+      <h3>Exploit Research</h3>
+      <p>Buffer overflow exploitation, ROP chain development, shellcode crafting. OSCP-track methodology and controlled PoCs.</p>
+      <div class="cap-tags"><span>Buffer Overflow</span><span>ROP</span><span>Shellcode</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- TERMINAL SIM -->
+<section id="terminal-section">
+  <div class="terminal-window">
+    <div class="terminal-titlebar">
+      <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+      <span class="terminal-title">saimson@kali:~$ — bash</span>
+    </div>
+    <div class="terminal-body" id="terminalBody"></div>
+  </div>
+</section>
+
+<!-- QUICK CTA -->
+<section id="cta-band">
+  <p class="cta-line">Ready to audit your systems or ship a secure product?</p>
+  <a href="contact.html" class="btn-primary large">$ initialize --contact</a>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">[SAIMSON] © 2025</div>
+    <div class="footer-links">
+      <a href="https://github.com/saims0n" target="_blank">GitHub</a>
+      <a href="https://twitter.com/saims0n" target="_blank">Twitter/X</a>
+      <a href="https://www.linkedin.com/in/saims0n" target="_blank">LinkedIn</a>
+      <a href="https://www.fiverr.com/singhsaim" target="_blank">Fiverr</a>
+    </div>
+    <div class="footer-note">All engagements authorized. Ethical. Scoped.</div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+<script>
+// Terminal simulation
+const lines = [
+  { text: "saimson@kali:~$ whoami", delay: 0, class: "prompt" },
+  { text: "shubhankar_singh // saimson | EY Cyber Security Consultant", delay: 600, class: "out" },
+  { text: "saimson@kali:~$ cat current_role.txt", delay: 1400, class: "prompt" },
+  { text: "Cyber Security Consultant @ Ernst & Young (EY)", delay: 2000, class: "out accent" },
+  { text: "Focus: Web · API · Infrastructure · Network Security", delay: 2200, class: "out" },
+  { text: "saimson@kali:~$ ls ~/repos/", delay: 3000, class: "prompt" },
+  { text: "OSCP-BUFFER-OVERFLOW-PREP/  Hack-the-box-VMS-Walkthrough/  OSCP-Notes/  0xdf-reader/", delay: 3600, class: "out" },
+  { text: "saimson@kali:~$ nmap -sV --script vuln target.io", delay: 4600, class: "prompt" },
+  { text: "Starting Nmap 7.94 ( https://nmap.org )", delay: 5200, class: "out muted" },
+  { text: "PORT     STATE  SERVICE    VERSION", delay: 5400, class: "out muted" },
+  { text: "80/tcp   open   http       Apache 2.4.52", delay: 5600, class: "out warn" },
+  { text: "443/tcp  open   ssl/https  nginx 1.18.0", delay: 5800, class: "out" },
+  { text: "22/tcp   open   ssh        OpenSSH 8.4", delay: 6000, class: "out" },
+  { text: "| vuln: CVE-2021-41773 Path Traversal [CRITICAL]", delay: 6400, class: "out danger" },
+  { text: "saimson@kali:~$ echo 'always authorized. always ethical.' && _", delay: 7400, class: "prompt" },
+];
+
+const tb = document.getElementById('terminalBody');
+let idx = 0;
+function typeTerminal() {
+  if (idx >= lines.length) {
+    setTimeout(() => { tb.innerHTML = ''; idx = 0; typeTerminal(); }, 3000);
+    return;
+  }
+  const l = lines[idx];
+  setTimeout(() => {
+    const d = document.createElement('div');
+    d.className = 'term-line ' + (l.class || '');
+    d.textContent = l.text;
+    tb.appendChild(d);
+    tb.scrollTop = tb.scrollHeight;
+    idx++;
+    typeTerminal();
+  }, idx === 0 ? 800 : l.delay - (lines[idx-1]?.delay||0));
+}
+setTimeout(typeTerminal, 1000);
+</script>
+</body>
+</html>

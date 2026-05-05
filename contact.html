@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Contact | Saimson</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<canvas id="bg-canvas"></canvas>
+<div id="cursor-dot"></div><div id="cursor-outline"></div>
+<nav id="navbar">
+  <a href="index.html" class="nav-brand"><span class="brand-bracket">[</span>SAIMSON<span class="brand-bracket">]</span></a>
+  <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html"><span class="cmd">./</span>home</a></li>
+    <li><a href="about.html"><span class="cmd">./</span>about</a></li>
+    <li><a href="arsenal.html"><span class="cmd">./</span>arsenal</a></li>
+    <li><a href="projects.html"><span class="cmd">./</span>projects</a></li>
+    <li><a href="research.html"><span class="cmd">./</span>research</a></li>
+    <li><a href="contact.html" class="active nav-cta"><span class="cmd">$</span>&nbsp;contact --me</a></li>
+  </ul>
+  <div class="nav-status"><span class="pulse"></span><span class="status-text">AVAILABLE</span></div>
+</nav>
+
+<main class="page-main">
+<div class="page-hero">
+  <div class="page-hero-label">$ contact --me</div>
+  <h1 class="page-hero-title">Initialize <span class="accent">Contact</span></h1>
+  <p class="page-hero-sub">Pentest engagement, security consultation, or software project? Let's talk.</p>
+</div>
+
+<section class="contact-layout">
+  <!-- INFO SIDE -->
+  <div class="contact-info-col">
+    <div class="contact-note">
+      <div class="note-icon">📡</div>
+      <p>I respond within <strong class="accent">24 hours</strong> to all genuine enquiries. For urgent engagements, reach me directly on email or LinkedIn.</p>
+    </div>
+
+    <div class="contact-channels">
+      <a href="mailto:saimson.mac@gmail.com" class="channel-link">
+        <span class="ch-icon">✉</span>
+        <div><span class="ch-label">Email</span><span class="ch-val">saimson.mac@gmail.com</span></div>
+        <span class="ch-arrow">→</span>
+      </a>
+      <a href="https://www.linkedin.com/in/saims0n" target="_blank" class="channel-link">
+        <span class="ch-icon">in</span>
+        <div><span class="ch-label">LinkedIn</span><span class="ch-val">linkedin.com/in/saims0n</span></div>
+        <span class="ch-arrow">→</span>
+      </a>
+      <a href="https://twitter.com/saims0n" target="_blank" class="channel-link">
+        <span class="ch-icon">𝕏</span>
+        <div><span class="ch-label">Twitter / X</span><span class="ch-val">@saims0n</span></div>
+        <span class="ch-arrow">→</span>
+      </a>
+      <a href="https://github.com/saims0n" target="_blank" class="channel-link">
+        <span class="ch-icon">⌥</span>
+        <div><span class="ch-label">GitHub</span><span class="ch-val">github.com/saims0n</span></div>
+        <span class="ch-arrow">→</span>
+      </a>
+      <a href="https://www.fiverr.com/singhsaim" target="_blank" class="channel-link">
+        <span class="ch-icon">⚡</span>
+        <div><span class="ch-label">Fiverr</span><span class="ch-val">Hire on Fiverr</span></div>
+        <span class="ch-arrow">→</span>
+      </a>
+    </div>
+
+    <!-- SMALL TERMINAL -->
+    <div class="contact-terminal">
+      <div class="mini-term-bar"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span><span style="color:var(--muted);font-size:.7rem;margin-left:auto;padding-right:8px">status</span></div>
+      <div class="mini-term-body">
+        <div class="mt-line"><span class="p">$</span> check availability</div>
+        <div class="mt-line out accent">STATUS: AVAILABLE FOR ENGAGEMENTS</div>
+        <div class="mt-line"><span class="p">$</span> accepted_work --list</div>
+        <div class="mt-line out">→ Web / API Penetration Testing</div>
+        <div class="mt-line out">→ Android Mobile Security</div>
+        <div class="mt-line out">→ Network / Infrastructure Audit</div>
+        <div class="mt-line out">→ Secure Software Development</div>
+        <div class="mt-line out">→ Security Consulting (EY / Freelance)</div>
+        <div class="mt-line"><span class="p">$</span> note: --ethics</div>
+        <div class="mt-line out warn">Only authorized testing. No exceptions.</div>
+        <div class="mt-line blink-line"><span class="p">$</span> <span class="cursor-char">_</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FORM SIDE -->
+  <div class="contact-form-col">
+    <div class="form-terminal-bar">
+      <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+      <span class="form-title">saimson@kali:~$ send --message</span>
+    </div>
+
+    <!--
+      ════════════════════════════════════════════════════════
+      HOW TO ACTIVATE THE CONTACT FORM (takes 2 minutes):
+
+      1. Go to https://formspree.io
+      2. Sign up free → New Form → copy your Form ID (e.g. xldreqpo)
+      3. Replace YOUR_FORMSPREE_ID below with that ID
+      4. Push the site — done. Emails land in your inbox.
+
+      Free tier: 50 submissions/month. No server needed.
+      ════════════════════════════════════════════════════════
+    -->
+    <form id="contactForm" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" novalidate>
+
+      <div class="form-row two-col">
+        <div class="form-group">
+          <label for="fname"><span class="form-prompt">$</span> name</label>
+          <input type="text" id="fname" name="name" placeholder="Your name" required autocomplete="off">
+          <span class="form-error" id="err-name"></span>
+        </div>
+        <div class="form-group">
+          <label for="femail"><span class="form-prompt">$</span> email</label>
+          <input type="email" id="femail" name="email" placeholder="your@email.com" required autocomplete="off">
+          <span class="form-error" id="err-email"></span>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="ftype"><span class="form-prompt">$</span> engagement_type</label>
+        <select id="ftype" name="engagement_type">
+          <option value="">-- select type --</option>
+          <option value="Web App Pentest">Web App Penetration Test</option>
+          <option value="API Security">API Security Assessment</option>
+          <option value="Mobile App Security">Mobile App Security (Android/iOS)</option>
+          <option value="Network/Infrastructure">Network / Infrastructure Audit</option>
+          <option value="OT Security">OT / ICS Security</option>
+          <option value="Software Development">Software Development</option>
+          <option value="Security Consultation">Security Consultation</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="fbudget"><span class="form-prompt">$</span> budget_range</label>
+        <select id="fbudget" name="budget">
+          <option value="">-- optional --</option>
+          <option value="Under $500">Under $500</option>
+          <option value="$500 - $1500">$500 – $1,500</option>
+          <option value="$1500 - $5000">$1,500 – $5,000</option>
+          <option value="$5000+">$5,000+</option>
+          <option value="Enterprise / Custom">Enterprise / Custom</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="fmsg"><span class="form-prompt">$</span> message</label>
+        <textarea id="fmsg" name="message" rows="6" placeholder="Describe your project, target scope, timeline and any specific requirements..." required></textarea>
+        <span class="form-error" id="err-msg"></span>
+      </div>
+
+      <div class="form-footer-row">
+        <p class="form-ethics-note">⚠ I only accept authorized engagements. Please include your scope and authorization method.</p>
+        <button type="submit" class="btn-submit" id="submitBtn">
+          <span id="btn-text">$ send --message</span>
+        </button>
+      </div>
+
+      <div id="form-success" class="form-success" style="display:none">
+        <span class="success-icon">✓</span>
+        <div>
+          <strong>Transmission received.</strong><br>
+          I'll get back to you within 24 hours at the email provided.
+        </div>
+      </div>
+      <div id="form-error-msg" class="form-err-banner" style="display:none">
+        <span>✗</span> Something went wrong. Please email me directly at <a href="mailto:saimson.mac@gmail.com">saimson.mac@gmail.com</a>
+      </div>
+
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">[SAIMSON] © 2025</div>
+    <div class="footer-links">
+      <a href="https://github.com/saims0n" target="_blank">GitHub</a>
+      <a href="https://twitter.com/saims0n" target="_blank">Twitter/X</a>
+      <a href="https://www.linkedin.com/in/saims0n" target="_blank">LinkedIn</a>
+      <a href="https://www.fiverr.com/singhsaim" target="_blank">Fiverr</a>
+    </div>
+    <div class="footer-note">All engagements authorized. Ethical. Scoped.</div>
+  </div>
+</footer>
+<script src="assets/main.js"></script>
+<script>
+const form = document.getElementById('contactForm');
+const btn = document.getElementById('submitBtn');
+const btnText = document.getElementById('btn-text');
+const success = document.getElementById('form-success');
+const errBanner = document.getElementById('form-error-msg');
+
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  // Basic validation
+  let valid = true;
+  const name = form.name.value.trim();
+  const email = form.email.value.trim();
+  const msg = form.message.value.trim();
+  document.getElementById('err-name').textContent = (!name) ? '// required' : '';
+  document.getElementById('err-email').textContent = (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) ? '// valid email required' : '';
+  document.getElementById('err-msg').textContent = (!msg) ? '// required' : '';
+  if (!name || !email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || !msg) return;
+
+  btnText.textContent = '$ transmitting...';
+  btn.disabled = true;
+
+  // Check if Formspree ID has been replaced
+  if (form.action.includes('YOUR_FORMSPREE_ID')) {
+    // Fallback: open mailto
+    const subject = encodeURIComponent('Portfolio Contact: ' + (form.engagement_type.value || 'Enquiry'));
+    const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nType: ${form.engagement_type.value}\nBudget: ${form.budget.value}\n\n${msg}`);
+    window.location.href = `mailto:saimson.mac@gmail.com?subject=${subject}&body=${body}`;
+    btnText.textContent = '$ send --message';
+    btn.disabled = false;
+    return;
+  }
+
+  try {
+    const res = await fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    });
+    if (res.ok) {
+      form.reset();
+      success.style.display = 'flex';
+      btn.style.display = 'none';
+    } else {
+      throw new Error('Server error');
+    }
+  } catch {
+    errBanner.style.display = 'flex';
+    btnText.textContent = '$ retry --send';
+    btn.disabled = false;
+  }
+});
+</script>
+</body>
+</html>

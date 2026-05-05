@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Research | Saimson</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<canvas id="bg-canvas"></canvas>
+<div id="cursor-dot"></div><div id="cursor-outline"></div>
+<nav id="navbar">
+  <a href="index.html" class="nav-brand"><span class="brand-bracket">[</span>SAIMSON<span class="brand-bracket">]</span></a>
+  <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html"><span class="cmd">./</span>home</a></li>
+    <li><a href="about.html"><span class="cmd">./</span>about</a></li>
+    <li><a href="arsenal.html"><span class="cmd">./</span>arsenal</a></li>
+    <li><a href="projects.html"><span class="cmd">./</span>projects</a></li>
+    <li><a href="research.html" class="active"><span class="cmd">./</span>research</a></li>
+    <li><a href="contact.html" class="nav-cta"><span class="cmd">$</span>&nbsp;contact --me</a></li>
+  </ul>
+  <div class="nav-status"><span class="pulse"></span><span class="status-text">AVAILABLE</span></div>
+</nav>
+
+<main class="page-main">
+<div class="page-hero">
+  <div class="page-hero-label">./research</div>
+  <h1 class="page-hero-title">Security <span class="accent">Research</span></h1>
+  <p class="page-hero-sub">Domains, methodologies, write-ups and ongoing work</p>
+</div>
+
+<!-- RESEARCH DOMAINS -->
+<section class="section-block">
+  <div class="section-label">domains</div>
+  <h2 class="section-title">Research Areas</h2>
+  <div class="research-matrix">
+
+    <div class="res-card reveal-card critical">
+      <div class="res-severity critical">CRITICAL</div>
+      <h3>Web Application Pentesting</h3>
+      <p>OWASP Top 10 exploitation, injection flaws, broken authentication, IDOR, insecure deserialization, XXE and server-side vulnerabilities. Methodology covers black, grey and white box assessments.</p>
+      <ul class="res-bullets">
+        <li>SQL / NoSQL / LDAP / Command Injection</li>
+        <li>XSS · CSRF · SSRF · CORS Bypass</li>
+        <li>JWT Manipulation & Auth Bypass</li>
+        <li>File Upload Exploitation</li>
+      </ul>
+    </div>
+
+    <div class="res-card reveal-card high">
+      <div class="res-severity high">HIGH</div>
+      <h3>Android Application Security</h3>
+      <p>Static and dynamic analysis of Android APKs. Identifying insecure data storage, exported activities, intent hijacking, hardcoded secrets, and bypassing certificate pinning and root detection.</p>
+      <ul class="res-bullets">
+        <li>APK Decompilation with jadx / apktool</li>
+        <li>Dynamic Analysis with Frida &amp; Objection</li>
+        <li>SSL Pinning &amp; Root Detection Bypass</li>
+        <li>Insecure Data Storage &amp; IPC Analysis</li>
+      </ul>
+    </div>
+
+    <div class="res-card reveal-card high">
+      <div class="res-severity high">HIGH</div>
+      <h3>Buffer Overflow Exploitation</h3>
+      <p>Stack-based buffer overflow research on OSCP-track machines. Covers fuzzing, EIP control, bad char analysis, JMP ESP identification and shellcode delivery using Python exploit scripts.</p>
+      <ul class="res-bullets">
+        <li>Fuzzing with custom Python scripts</li>
+        <li>mona.py for pattern offset &amp; JMP ESP</li>
+        <li>Bad character detection &amp; elimination</li>
+        <li>Shellcode generation with msfvenom</li>
+      </ul>
+    </div>
+
+    <div class="res-card reveal-card medium">
+      <div class="res-severity medium">MEDIUM</div>
+      <h3>API Security Testing</h3>
+      <p>REST and GraphQL API assessment including broken object level authorization, mass assignment, rate limiting bypass, improper error handling and token leakage in API flows.</p>
+      <ul class="res-bullets">
+        <li>BOLA / BFLA / Excessive Data Exposure</li>
+        <li>Authentication Flaws &amp; Token Attacks</li>
+        <li>Rate Limiting &amp; Business Logic Flaws</li>
+        <li>GraphQL Introspection Attacks</li>
+      </ul>
+    </div>
+
+    <div class="res-card reveal-card medium">
+      <div class="res-severity medium">MEDIUM</div>
+      <h3>Network &amp; OT Security</h3>
+      <p>Host and network penetration testing including OT/ICS environments. Protocol analysis on industrial networks, SCADA system testing, firewall rule auditing and lateral movement chains.</p>
+      <ul class="res-bullets">
+        <li>Network Enumeration &amp; Service Exploitation</li>
+        <li>OT/ICS Protocol Analysis</li>
+        <li>Active Directory Attack Paths</li>
+        <li>Lateral Movement &amp; PrivEsc Chains</li>
+      </ul>
+    </div>
+
+    <div class="res-card reveal-card medium">
+      <div class="res-severity medium">MEDIUM</div>
+      <h3>Automation &amp; Tooling</h3>
+      <p>Building custom security automation tools in Python and Bash. Reconnaissance automation, payload generators, reporting scripts, and utility tools published as open source on GitHub.</p>
+      <ul class="res-bullets">
+        <li>Custom Recon Automation (Python)</li>
+        <li>Bash Scripting for Enumeration</li>
+        <li>Batch scripting for Windows targets</li>
+        <li>Open-source tool publishing</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- METHODOLOGY -->
+<section class="section-block dark-section">
+  <div class="section-label">methodology</div>
+  <h2 class="section-title">Pentest Methodology</h2>
+  <div class="method-flow">
+    <div class="method-step reveal-card">
+      <div class="step-num">01</div>
+      <div class="step-body">
+        <h4>Scoping &amp; Authorization</h4>
+        <p>Define engagement scope, rules of engagement, and obtain written authorization. All testing is 100% authorized before any action is taken.</p>
+      </div>
+    </div>
+    <div class="method-arrow">→</div>
+    <div class="method-step reveal-card">
+      <div class="step-num">02</div>
+      <div class="step-body">
+        <h4>Reconnaissance</h4>
+        <p>Passive and active recon — OSINT, subdomain enumeration, port scanning, service fingerprinting and attack surface mapping.</p>
+      </div>
+    </div>
+    <div class="method-arrow">→</div>
+    <div class="method-step reveal-card">
+      <div class="step-num">03</div>
+      <div class="step-body">
+        <h4>Enumeration</h4>
+        <p>Deep enumeration of discovered services, directories, user accounts, and exposed interfaces. Technology fingerprinting and version analysis.</p>
+      </div>
+    </div>
+    <div class="method-arrow">→</div>
+    <div class="method-step reveal-card">
+      <div class="step-num">04</div>
+      <div class="step-body">
+        <h4>Exploitation</h4>
+        <p>Controlled, targeted exploitation of identified vulnerabilities. Proof-of-concept development with minimal impact to production systems.</p>
+      </div>
+    </div>
+    <div class="method-arrow">→</div>
+    <div class="method-step reveal-card">
+      <div class="step-num">05</div>
+      <div class="step-body">
+        <h4>Post-Exploitation</h4>
+        <p>Privilege escalation, lateral movement simulation, data exfiltration PoC, and persistence demonstration within authorized scope.</p>
+      </div>
+    </div>
+    <div class="method-arrow">→</div>
+    <div class="method-step reveal-card">
+      <div class="step-num">06</div>
+      <div class="step-body">
+        <h4>Reporting</h4>
+        <p>Comprehensive report with executive summary, technical findings, severity ratings, PoC evidence, and actionable remediation guidance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ETHICS BANNER -->
+<section class="ethics-banner">
+  <div class="ethics-inner">
+    <span class="ethics-icon">🛡</span>
+    <div>
+      <h3>100% Authorized. 100% Ethical.</h3>
+      <p>I only perform security testing on systems I own or have explicit written authorization to test. Responsible disclosure is the standard — always.</p>
+    </div>
+    <a href="contact.html" class="btn-primary">Schedule Engagement</a>
+  </div>
+</section>
+
+</main>
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">[SAIMSON] © 2025</div>
+    <div class="footer-links">
+      <a href="https://github.com/saims0n" target="_blank">GitHub</a>
+      <a href="https://twitter.com/saims0n" target="_blank">Twitter/X</a>
+      <a href="https://www.linkedin.com/in/saims0n" target="_blank">LinkedIn</a>
+      <a href="https://www.fiverr.com/singhsaim" target="_blank">Fiverr</a>
+    </div>
+    <div class="footer-note">All engagements authorized. Ethical. Scoped.</div>
+  </div>
+</footer>
+<script src="assets/main.js"></script>
+</body>
+</html>

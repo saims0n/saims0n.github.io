@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Arsenal | Saimson</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<canvas id="bg-canvas"></canvas>
+<div id="cursor-dot"></div><div id="cursor-outline"></div>
+<nav id="navbar">
+  <a href="index.html" class="nav-brand"><span class="brand-bracket">[</span>SAIMSON<span class="brand-bracket">]</span></a>
+  <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html"><span class="cmd">./</span>home</a></li>
+    <li><a href="about.html"><span class="cmd">./</span>about</a></li>
+    <li><a href="arsenal.html" class="active"><span class="cmd">./</span>arsenal</a></li>
+    <li><a href="projects.html"><span class="cmd">./</span>projects</a></li>
+    <li><a href="research.html"><span class="cmd">./</span>research</a></li>
+    <li><a href="contact.html" class="nav-cta"><span class="cmd">$</span>&nbsp;contact --me</a></li>
+  </ul>
+  <div class="nav-status"><span class="pulse"></span><span class="status-text">AVAILABLE</span></div>
+</nav>
+
+<main class="page-main">
+<div class="page-hero">
+  <div class="page-hero-label">./arsenal</div>
+  <h1 class="page-hero-title">Technical <span class="accent">Arsenal</span></h1>
+  <p class="page-hero-sub">Tools, languages, frameworks and techniques I use in the field</p>
+</div>
+
+<!-- SKILL BARS -->
+<section class="section-block">
+  <div class="section-label">proficiency</div>
+  <h2 class="section-title">Core Skills</h2>
+  <div class="skills-cols">
+    <div class="skill-col">
+      <div class="skill-item reveal-card"><span class="skill-name">Web App Penetration Testing</span><div class="skill-bar"><div class="skill-fill" style="--w:95%"></div></div><span class="skill-pct">95</span></div>
+      <div class="skill-item reveal-card"><span class="skill-name">Network / Infrastructure Testing</span><div class="skill-bar"><div class="skill-fill" style="--w:88%"></div></div><span class="skill-pct">88</span></div>
+      <div class="skill-item reveal-card"><span class="skill-name">Android Mobile Security</span><div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div><span class="skill-pct">85</span></div>
+      <div class="skill-item reveal-card"><span class="skill-name">API Security Testing</span><div class="skill-bar"><div class="skill-fill" style="--w:92%"></div></div><span class="skill-pct">92</span></div>
+      <div class="skill-item reveal-card"><span class="skill-name">Buffer Overflow / Exploit Dev</span><div class="skill-bar"><div class="skill-fill" style="--w:75%"></div></div><span class="skill-pct">75</span></div>
+      <div class="skill-item reveal-card"><span class="skill-name">OT / ICS Security</span><div class="skill-bar"><div class="skill-fill" style="--w:70%"></div></div><span class="skill-pct">70</span></div>
+    </div>
+    <div class="skill-col">
+      <div class="skill-item reveal-card"><span class="skill-name">Python Scripting</span><div class="skill-bar"><div class="skill-fill" style="--w:90%"></div></div><span class="skill-pct">90</span></div>
+      <div class="skill-item reveal-card"><span class="skill-name">Flutter / Dart</span><div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div><span class="skill-pct">85</span></div>
+      <div class="skill-item reveal-card"><span class="skill-name">PHP / MySQL</span><div class="skill-bar"><div class="skill-fill" style="--w:88%"></div></div><span class="skill-pct">88</span></div>
+      <div class="skill-item reveal-card"><span class="skill-name">Bash / Shell Scripting</span><div class="skill-bar"><div class="skill-fill" style="--w:87%"></div></div><span class="skill-pct">87</span></div>
+      <div class="skill-item reveal-card"><span class="skill-name">JavaScript / HTML / SCSS</span><div class="skill-bar"><div class="skill-fill" style="--w:82%"></div></div><span class="skill-pct">82</span></div>
+      <div class="skill-item reveal-card"><span class="skill-name">Linux / Windows SysAdmin</span><div class="skill-bar"><div class="skill-fill" style="--w:93%"></div></div><span class="skill-pct">93</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- TOOLS MATRIX -->
+<section class="section-block dark-section">
+  <div class="section-label">tooling</div>
+  <h2 class="section-title">Tools &amp; Frameworks</h2>
+  <div class="tools-grid">
+    <div class="tool-category reveal-card">
+      <h3 class="tool-cat-title"><span class="cat-icon">⚔</span> Offensive</h3>
+      <div class="tool-list">
+        <span class="tool-tag">Burp Suite</span><span class="tool-tag">Metasploit</span><span class="tool-tag">SQLmap</span>
+        <span class="tool-tag">Nikto</span><span class="tool-tag">Gobuster</span><span class="tool-tag">Hydra</span>
+        <span class="tool-tag">John the Ripper</span><span class="tool-tag">Hashcat</span><span class="tool-tag">Impacket</span>
+        <span class="tool-tag">Mimikatz</span><span class="tool-tag">PowerSploit</span>
+      </div>
+    </div>
+    <div class="tool-category reveal-card">
+      <h3 class="tool-cat-title"><span class="cat-icon">🔍</span> Recon &amp; OSINT</h3>
+      <div class="tool-list">
+        <span class="tool-tag">Nmap</span><span class="tool-tag">Shodan</span><span class="tool-tag">Maltego</span>
+        <span class="tool-tag">theHarvester</span><span class="tool-tag">Recon-ng</span><span class="tool-tag">Amass</span>
+        <span class="tool-tag">Subfinder</span><span class="tool-tag">Nuclei</span><span class="tool-tag">Feroxbuster</span>
+      </div>
+    </div>
+    <div class="tool-category reveal-card">
+      <h3 class="tool-cat-title"><span class="cat-icon">📱</span> Mobile</h3>
+      <div class="tool-list">
+        <span class="tool-tag">MobSF</span><span class="tool-tag">Frida</span><span class="tool-tag">Objection</span>
+        <span class="tool-tag">apktool</span><span class="tool-tag">jadx</span><span class="tool-tag">ADB</span>
+        <span class="tool-tag">drozer</span><span class="tool-tag">SSL Kill Switch</span>
+      </div>
+    </div>
+    <div class="tool-category reveal-card">
+      <h3 class="tool-cat-title"><span class="cat-icon">🧠</span> Exploit Dev</h3>
+      <div class="tool-list">
+        <span class="tool-tag">Immunity Debugger</span><span class="tool-tag">Mona.py</span><span class="tool-tag">pwndbg</span>
+        <span class="tool-tag">GDB</span><span class="tool-tag">pwntools</span><span class="tool-tag">ROPgadget</span>
+        <span class="tool-tag">radare2</span>
+      </div>
+    </div>
+    <div class="tool-category reveal-card">
+      <h3 class="tool-cat-title"><span class="cat-icon">🌐</span> Network</h3>
+      <div class="tool-list">
+        <span class="tool-tag">Wireshark</span><span class="tool-tag">tcpdump</span><span class="tool-tag">Nessus</span>
+        <span class="tool-tag">OpenVAS</span><span class="tool-tag">Responder</span><span class="tool-tag">BloodHound</span>
+        <span class="tool-tag">CrackMapExec</span>
+      </div>
+    </div>
+    <div class="tool-category reveal-card">
+      <h3 class="tool-cat-title"><span class="cat-icon">🛠</span> Development</h3>
+      <div class="tool-list">
+        <span class="tool-tag">Flutter</span><span class="tool-tag">Firebase</span><span class="tool-tag">WordPress</span>
+        <span class="tool-tag">PHP</span><span class="tool-tag">MySQL</span><span class="tool-tag">Python</span>
+        <span class="tool-tag">JavaScript</span><span class="tool-tag">Git</span><span class="tool-tag">Linux</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OS + PLATFORMS -->
+<section class="section-block">
+  <div class="section-label">environment</div>
+  <h2 class="section-title">Operating Environments</h2>
+  <div class="env-row">
+    <div class="env-card reveal-card"><span class="env-icon">🐉</span><span>Kali Linux</span><span class="env-sub">Primary</span></div>
+    <div class="env-card reveal-card"><span class="env-icon">🪟</span><span>Windows 10/11</span><span class="env-sub">Dual-boot / VM</span></div>
+    <div class="env-card reveal-card"><span class="env-icon">🟧</span><span>Parrot OS</span><span class="env-sub">Secondary</span></div>
+    <div class="env-card reveal-card"><span class="env-icon">📦</span><span>HTB / THM</span><span class="env-sub">Lab Envs</span></div>
+    <div class="env-card reveal-card"><span class="env-icon">☁</span><span>VPN / VMs</span><span class="env-sub">Isolated Testing</span></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">[SAIMSON] © 2025</div>
+    <div class="footer-links">
+      <a href="https://github.com/saims0n" target="_blank">GitHub</a>
+      <a href="https://twitter.com/saims0n" target="_blank">Twitter/X</a>
+      <a href="https://www.linkedin.com/in/saims0n" target="_blank">LinkedIn</a>
+      <a href="https://www.fiverr.com/singhsaim" target="_blank">Fiverr</a>
+    </div>
+    <div class="footer-note">All engagements authorized. Ethical. Scoped.</div>
+  </div>
+</footer>
+<script src="assets/main.js"></script>
+<script>
+// Animate skill bars on reveal
+const fills = document.querySelectorAll('.skill-fill');
+const skillObserver = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.style.width = e.target.style.getPropertyValue('--w') || getComputedStyle(e.target).getPropertyValue('--w');
+      skillObserver.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.2 });
+fills.forEach(f => { f.style.width = '0'; skillObserver.observe(f); });
+</script>
+</body>
+</html>
